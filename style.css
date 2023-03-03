@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  background-color: red;
+  background-color: #c5c5c5d5;
   padding: 1rem;
   width: min-content;
 }
@@ -45,7 +45,8 @@ main {
 }
 
 .input-field .number {
-  background-color: green;
+  background-color: #353535;
+  color: #ffffff;
   padding: 1rem 2rem;
   cursor: pointer;
   font-size: 2rem;
@@ -54,7 +55,8 @@ main {
 
 .clear-btn {
   grid-area: 4 / 2 / 4 / 4;
-  background-color: yellow;
+  background-color: #614545;
+  color: #ffffff;
   width: -webkit-fill-available;
   display: flex;
   align-items: center;
@@ -64,7 +66,8 @@ main {
 
 .enter-btn {
   grid-area: 5 / 1 / 5 / 4;
-  background-color: yellow;
+  background-color: #614545;
+  color: #ffffff;
   width: -webkit-fill-available;
   padding: 1rem;
   border: none;
